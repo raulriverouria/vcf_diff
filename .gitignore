@@ -1,0 +1,59 @@
+# Ficheros VCF: mantenerlos sólo en local, no sincronizarlos en el repositorio
+*.vcf
+
+# ---------------------------------------------------------------
+# Python: cachés de bytecode e importación
+# ---------------------------------------------------------------
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribución / empaquetado
+build/
+dist/
+*.egg-info/
+.eggs/
+pip-wheel-metadata/
+
+# Entornos virtuales (venv, virtualenv, conda, poetry, pipenv, pyenv, uv, pixi)
+.venv/
+venv/
+env/
+ENV/
+.venv-*/
+envs/
+virtualenv/
+.venvs/
+.pipenv/
+Pipfile.lock
+poetry.lock
+pylock.toml
+uv.lock
+.pixi/
+conda-meta/
+
+# Herramientas de calidad / testing (cachés locales)
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.pytype/
+.cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+.hypothesis/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDEs (configuración local)
+.idea/
+.vscode/
+*.swp
+.DS_Store
+
+# Variables de entorno con secretos
+.env
+.env.*
